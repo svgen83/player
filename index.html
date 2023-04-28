@@ -18,7 +18,10 @@
 											flex-direction: column;
 											justify-content: flex-end;}
 		.video-container {flex-grow: 1}
-		.control-button-panel {background-color: black}
+		.control-button-panel {display: flex;
+													justify-content: flex-start;
+													background-color: black}
+		.grow {flex-grow: 1}
   </style>
 </head>
 <body>
@@ -30,6 +33,13 @@
 			<button class="js-pause-button control-button hidden"><i class="fa fa-pause" aria-hidden="true"></i></button>
 			<button class="js-volume-button control-button"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
 			<button class="js-mute-button control-button hidden"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+			<div> class = "grow"</div>
+			<div> class = "grow"</div>
+			<div> class = "grow"</div>
+			<div> class = "grow"</div>
+			<div> class = "grow"</div>
+			<div> class = "grow"</div>
+      <button class="js-fullscreen-button control-button"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>
 		</div>
   </div>
 	

@@ -53,6 +53,16 @@
         height: 5px;
         border-radius:5px
 		}
+	  .dot {
+		height: 8px;
+        width: 8px;
+		border-style: solid;
+		border-width: 3px;
+		border-color: white;
+        background-color: red;
+        border-radius: 50%;
+        display: inline-block
+		}
   </style>
 	<link type="image/x-icon" href="/favicon.png" rel="shortcut icon">
 	<link rel="stylesheet" href="./font-awesome.min.css">
@@ -72,7 +82,7 @@
 		<div class = "view-panel" >
 		  <div class="js-current-time"></div>
 		  <div class="js-progress progress-bar">
-			<div class="js-progress-slider progress-slider"></div>
+			<div class="js-progress-slider progress-slider"><span class="dot"></span></div>
 		  </div>
 		  <div class="js-duration"></div>
 		</div>

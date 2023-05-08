@@ -61,8 +61,13 @@
 		border-color: white;
         background-color: red;
         border-radius: 50%;
-        display: inline-block
+        display: inline-block;
+        opacity: 0;
+        transition-duration: 300ms;
+        transition-property: all;
+        transition-timing-function: ease-in-out;
 		}
+	  .view-panel:hover .dot{opacity: 1.0; transition-duration:300ms;}
   </style>
 	<link type="image/x-icon" href="/favicon.png" rel="shortcut icon">
 	<link rel="stylesheet" href="./font-awesome.min.css">

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
   <title>Плеер</title>
   <meta charset="utf-8">
-	<style type="text/css">
+	<style>
 	  .player-container {
 		display: flex;
 	    width: 800px; height: 600px;
@@ -21,7 +21,7 @@
 		align-items: center;
 		}
 	  .player-container .control-button-panel .control-button {
-	    border-style: #fff;
+	    border-style: hidden;
 	    margin: 3px; color: white;
 		background-color: transparent;
 		cursor: pointer;
@@ -71,7 +71,7 @@
   </style>
 	<link type="image/x-icon" href="./static/favicon.png" rel="shortcut icon">
 	<link rel="stylesheet" href="./static/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./static/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="./static/normalize.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -101,7 +101,7 @@
   <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
   <script src="player.js"></script>
 
-  <script type="text/javascript">
+  <script>
     createPlayer({elementId: 'player'});
   </script>
 

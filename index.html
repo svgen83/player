@@ -77,15 +77,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div id="player" class="player-container" >
+  <div id="player" class="player-container">
     <div class="js-video-container video-container"></div>
     <!-- Here can be placed player controls: play and volume buttons -->
-      <div class = "control-button-panel" >
+      <div class = "control-button-panel">
 		<button class="js-play-button control-button"><i class="fa fa-play" aria-hidden="true"></i></button>
 		<button class="js-pause-button control-button hidden"><i class="fa fa-pause" aria-hidden="true"></i></button>
 		<button class="js-volume-button control-button"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
 		<button class="js-mute-button control-button hidden"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-		<div class = "view-panel" >
+		<div class = "view-panel">
 		  <div class="js-current-time"></div>
 		  <div class="js-progress progress-bar">
 			<div class="js-progress-slider progress-slider"></div>
@@ -99,7 +99,7 @@
 	
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
-  <script src="player.js"></script>
+  <script src="./static/player.js"></script>
 
   <script>
     createPlayer({elementId: 'player'});
